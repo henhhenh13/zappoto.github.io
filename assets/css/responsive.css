@@ -1,0 +1,44 @@
+@media (max-width: 1023px) {
+    .hide-on-mobile-desktop {
+        display: none;
+    }
+
+    .header__nav__item {
+        margin: unset;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .slogan__text {
+        font-size: 2.5rem;
+        white-space: nowrap;
+    }
+    
+    .header__nav__mobile {
+        display: none;
+        position: fixed;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 100%;
+        margin-top: 10px;
+        user-select: none;
+    }
+
+    .show-nav {
+        display: block;
+        animation: widthOn 0.5s ease;
+    }
+
+    .team__achievement.container {
+        background-color: var(--black-color);
+    }
+
+    .header__nav__mobile .header__nav__item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .team__achievement__item {
+        margin-bottom: 20px;
+    }
+}

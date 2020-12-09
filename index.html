@@ -15,9 +15,9 @@
     <div class="app">
         <div class="banner">
             <div class="header container">
-                <div class="row header__logo__nav">
+                <div class="row header__logo__nav" id="header__logo__nav">
                     <a href="#" class="header__logo">zapto <span class="header__logo__design">design</span></a>
-                    <ul class="header__nav">
+                    <ul class="header__nav hide-on-mobile-desktop">
                         <li class="header__nav__item">
                             <a href="#" class="header__nav__link active">home</a>
                         </li>
@@ -36,11 +36,31 @@
                         <li class="header__nav__item">
                             <a href="#" class="header__nav__link">contact us</a>
                         </li>
-                        <li class="header__nav__item">
-                            <i class="fas fa-bars header__nav__bars"></i>
-                        </li>
                     </ul>
+                    <li class="header__nav__item">
+                        <i class="fas fa-bars header__nav__bars" id="btn-show-menus"></i>
+                    </li>
                 </div>
+                <ul class="header__nav__mobile" id="id-head-nav">
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link active">home</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">about us</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">our work</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">our blogs</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">our services</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">contact us</a>
+                    </li>
+                </ul>
             </div>
             <div class="slogan container">
                 <div class="row slogan__container">
@@ -58,7 +78,7 @@
                         Iste cumque magni esse, at hic quia, dolorem nesciunt dist.</p>
                 </div>
                 <div class="row wellcome__it">
-                    <div class="col-xl-4 col-lg-6 wellcome__it__item">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 wellcome__it__item">
                         <div class="wellcome__it__box__img">
                             <div class="wellcome__it__img" style="background-image: url(./assets/img/item-1.jpg);"></div>
                         </div>
@@ -70,7 +90,7 @@
                             <a href="#" class="wellcome__it__btn">About Us</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 wellcome__it__item">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 wellcome__it__item">
                         <div class="wellcome__it__box__img">
                             <div class="wellcome__it__img" style="background-image: url(./assets/img/item-2.jpg);"></div>
                         </div>
@@ -82,7 +102,7 @@
                             <a href="#" class="wellcome__it__btn">About Us</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 wellcome__it__item">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 wellcome__it__item">
                         <div class="wellcome__it__box__img">
                             <div class="wellcome__it__img" style="background-image: url(./assets/img/item-3.jpg);"></div>
                         </div>
@@ -100,25 +120,25 @@
             <div class="team__achievement__container">
                 <div class="team__achievement container">
                     <div class="row">
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                             <div class="team__achievement__item">
                                 <h3 class="team__achievement__number">114</h3>
                                 <h4 class="team__achievement__name">Our Projects</h4>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                             <div class="team__achievement__item">
                                 <h3 class="team__achievement__number">350</h3>
                                 <h4 class="team__achievement__name">Happy clients</h4>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                             <div class="team__achievement__item">
                                 <h3 class="team__achievement__number">546</h3>
                                 <h4 class="team__achievement__name">Cups of Coffe</h4>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                             <div class="team__achievement__item">
                                 <h3 class="team__achievement__number">935</h3>
                                 <h4 class="team__achievement__name">Facebook Likes</h4>
@@ -126,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="team__achievement__width"></div>
+                <div class="team__achievement__width hide-on-mobile-desktop"></div>
             </div>
 
             <div class="recentwork">
@@ -155,7 +175,7 @@
                         </ul>
                     </div>
                     <div class="row">
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="recentwork__box__items" style="background-image: url(./assets/img/background-banner.jpg);">
                                 <div class="recentwork__box__items__text">
                                     <h3 class="recentwork__box__items__text__title">Mockup Design</h3>
@@ -163,7 +183,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="recentwork__box__items" style="background-image: url(./assets/img/background-banner.jpg);">
                                 <div class="recentwork__box__items__text">
                                     <h3 class="recentwork__box__items__text__title">Mockup Design</h3>
@@ -171,7 +191,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="recentwork__box__items" style="background-image: url(./assets/img/background-banner.jpg);">
                                 <div class="recentwork__box__items__text">
                                     <h3 class="recentwork__box__items__text__title">Mockup Design</h3>
@@ -179,7 +199,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="recentwork__box__items" style="background-image: url(./assets/img/background-banner.jpg);">
                                 <div class="recentwork__box__items__text">
                                     <h3 class="recentwork__box__items__text__title">Mockup Design</h3>
@@ -187,7 +207,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="recentwork__box__items" style="background-image: url(./assets/img/background-banner.jpg);">
                                 <div class="recentwork__box__items__text">
                                     <h3 class="recentwork__box__items__text__title">Mockup Design</h3>
@@ -195,7 +215,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="recentwork__box__items" style="background-image: url(./assets/img/background-banner.jpg);">
                                 <div class="recentwork__box__items__text">
                                     <h3 class="recentwork__box__items__text__title">Mockup Design</h3>
@@ -208,6 +228,14 @@
             </div>
         </div>
     </div>
+
+    <script src="./assets/js/main.js"></script>
+    <script>
+        menuDropDownMobile ({
+            menuShowMobile: '#id-head-nav',
+            btnShowMenus: '#btn-show-menus',
+        });
+    </script>
 
 
 </body>

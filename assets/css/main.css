@@ -9,6 +9,18 @@
 
 .header {
     padding-top: 20px;
+    position: relative;
+    height: 80px;
+}
+
+.header__logo__nav.stuck {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header__nav__mobile {
+    display: none;
 }
 
 .header__logo__nav {
