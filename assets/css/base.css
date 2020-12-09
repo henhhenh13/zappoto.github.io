@@ -1,0 +1,39 @@
+:root {
+    --main-color: #5CE8CD;
+    --white-color: #FFFFFF;
+    --text-color: #5d5d5d;
+    --black-color: #141414;
+}
+
+
+* {
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 940px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--white-color);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+}
+
+@keyframes upOn {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
