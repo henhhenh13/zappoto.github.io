@@ -56,9 +56,28 @@
     .team__achievement__item {
         margin-bottom: 20px;
     }
+
+    .whyChooseUs__box__slides {
+        margin-bottom: 40px;
+    }
+
+    .whyChooseUs__box__work__item__icon {
+        width: 75px;
+        height: 75px;
+        font-size: 2.2rem;
+        line-height: 75px;
+    }
+
+    .whyChooseUs__box__work__item__text {
+        width: 100%;
+    }
+
+    .whyChooseUs {
+        height: 1000px;
+    } 
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 423px) {
     .slogan__text {
         font-size: 2rem;
     }

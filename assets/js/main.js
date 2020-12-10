@@ -27,6 +27,17 @@ function onHead(){
     }
   } ).mount();
 
+  new Splide( '.splide-1', {
+    type    : 'loop',
+      perPage : 2,
+      pagination : true,
+      speed: 600,
+      rewindSpeed: 0,
+      classes: {
+    arrow : 'splide__arrow news-arrow',
+        },
+  } ).mount();
+
 } );
 
 // Thứ viện menudropdown by: henhpropd
