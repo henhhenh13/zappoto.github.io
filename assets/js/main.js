@@ -1,6 +1,6 @@
 // Khi scroll header thành fixed
 function onHead(){
-    const nav = document.querySelector('.header__logo__nav');
+    const nav = document.querySelector('.header__logo__nav__container');
     window.addEventListener('scroll', function() {
       const offset = window.pageYOffset;
       
@@ -15,6 +15,19 @@ function onHead(){
 
 
 
+  document.addEventListener( 'DOMContentLoaded', function () {  
+  new Splide( '.splide', {
+    type    : 'loop',
+      perPage : 1,
+      pagination : false,
+      speed: 600,
+      rewindSpeed: 0,
+      classes: {
+      arrow : 'splide__arrow whyChooseUs__box__slides__app__arrow',
+    }
+  } ).mount();
+
+} );
 
 // Thứ viện menudropdown by: henhpropd
 function menuDropDownMobile(options) {

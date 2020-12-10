@@ -10,24 +10,32 @@
 .header {
     position: relative;
     height: 60px;
+    width: 100%;
 }
 
-.header__logo__nav.stuck {
+.header__logo__nav {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+.header__logo__nav__container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header__logo__nav__container.stuck {
     position: fixed;
     top: 0;
-    z-index: 10000;
-    width: 100%;
+    z-index: 10;
 }
 
 .header__nav__mobile {
     display: none;
 }
 
-.header__logo__nav {
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    align-items: center;
-}
 
 .header__logo {
     font-size: 2rem;
@@ -86,6 +94,7 @@
     font-size: 1.8rem;
     margin-left: 15px;
     cursor: pointer;
+    display: none;
 }
 
 .slogan {
@@ -340,13 +349,91 @@
 .recentwork__box__items__text__word {
     margin: 0;
     font-size: 1.8rem;
+}
+
+.whyChooseUs {
+
+}
+
+.whyChooseUs__box {
+    margin: 60px;
+
+}
+
+.whyChooseUs__box__container {
+    height: 450px;
 
 }
 
 
+.whyChooseUs__box__slides__app {
+    border: 5px solid var(--main-color);
+}
 
+.whyChooseUs__box__slides__img {
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
 
+.whyChooseUs__box__slides__app__arrow {
+    width: 30px;
+    height: 80px;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
+.whyChooseUs__box__slides__app__arrow.splide__arrow--next{
+    right: 0.01rem;
+}
+
+.whyChooseUs__box__slides__app__arrow.splide__arrow--prev {
+    left: 0.01rem;
+}
+
+.splide__arrow svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.splide__arrow svg path{
+    fill: var(--main-color);
+}
+
+.whyChooseUs__box__work {
+    display: flex;
+    align-items: center;
+}
+
+.whyChooseUs__box__work__items > .whyChooseUs__box__work__item:last-child {
+    margin-bottom: 0;
+}
+
+.whyChooseUs__box__work__item {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.whyChooseUs__box__work__item__icon {
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--main-color);
+    text-align: center;
+    line-height: 100px;
+    font-size: 6rem;
+    color: var(--main-color);
+    margin-right: 40px;
+}
+
+.whyChooseUs__box__work__item__text {
+    height: 100px;
+    width: 400px;   
+    padding-top: 5px;
+}
 
 
 

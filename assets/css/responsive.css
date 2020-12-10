@@ -2,10 +2,18 @@
     .hide-on-mobile-desktop {
         display: none;
     }
+    
+    .header__nav__bars {
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 5%;
+        font-size: 3rem;
+        z-index: 100;
+    }
 
     .header__logo__nav {
         height: 60px;
-        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .header__nav__item {
