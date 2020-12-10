@@ -471,6 +471,21 @@
     height: auto;   
 }
 
+.testimonials {
+    background-color: var(--black-color);
+    height: 575px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonials__title {
+    margin-bottom: 80px;
+}
+
+.testimonials__title__design {
+    color: var(--main-color);
+}
+
 .testimonials__team {
     width: 100%;
     display: flex;
@@ -489,9 +504,114 @@
     height: 100%;
 }
 
+.testimonials__team__design {
+    color: var(--white-color);
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.testimonials__team__design__ui::after {
+    display: none;
+}
+
+.testimonials__team__design__ui {
+    color: var(--main-color);
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+.testimonials__team__word {
+    color: rgb(189, 188, 188);
+}
+
 .testimonials__team__items {
     display: flex;
 }
 
+.testimonials__arrow {
+    display: none;
+}
 
+.testimonials__pagination {
+    bottom: -50%;
+}
 
+.splide__pagination__page.is-active {
+    transform: scale(1);
+}
+
+.testimonials__pagination > li {
+    margin-right: 10px;
+}
+
+.testimonials__pagination > li:nth-child(2){
+    
+    border: 3px solid var(--main-color);
+}
+
+.testimonials__pagination .splide__pagination__page {
+    background-color: black;
+    border-radius: 0;
+    width: 12px;
+    height: 12px;
+    background-color: var(--main-color);
+    opacity: 1;
+    text-align: center;
+}
+
+.our__blogs {
+
+}
+
+.our__blogs__box__img {
+    transform: rotate(0deg);
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    overflow: visible;
+}
+
+.our__blogs__img {
+    transform: rotate(0deg);
+    position: relative;
+}
+
+.our__blogs__date {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    right: 5%;
+    color: var(--white-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: var(--black-color);
+    margin: 0;
+    padding: 5px 10px;
+
+}
+
+.our__blogs__text {
+    margin-top: 30px;
+}
+
+.our__blogs__text .wellcome__it__design{
+    line-height: 1.2;
+}
+
+.our__blogs__text .wellcome__it__design::after{
+    display: none;
+}
+
+.our__blogs__btn {
+    border: none;
+    background-color: transparent;
+    color: var(--black-color);
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.our__blogs__btn__right {
+    font-size: 1.5rem;
+    margin-left: 5px;
+}

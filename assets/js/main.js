@@ -34,8 +34,15 @@ function onHead(){
       speed: 600,
       rewindSpeed: 0,
       classes: {
-    arrow : 'splide__arrow news-arrow',
+    arrow : 'splide__arrow testimonials__arrow',
+    pagination: 'splide__pagination testimonials__pagination',
         },
+    breakpoints: {
+          850: {
+                  perPage: 1,
+                  fixedWidth: '100%',
+          },
+        }
   } ).mount();
 
 } );
