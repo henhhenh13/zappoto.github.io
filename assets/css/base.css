@@ -46,3 +46,7 @@ html {
         transform: translateX(0);
     }
 }
+
+.wellcome__title.wellcome__title-left {
+    text-align: left;
+}
