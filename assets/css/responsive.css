@@ -32,7 +32,7 @@
         position: fixed;
         right: 0;
         top: 0;
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 0, 0, 0.7);
         height: 100%;
         margin-top: 60px;
         user-select: none;
@@ -75,6 +75,22 @@
     .whyChooseUs {
         height: 1000px;
     } 
+
+    .whyChooseUs__box__work__item {
+        margin-bottom: 60px;
+    }
+
+    .testimonials {
+        height: 700px;
+    }
+
+    .wellcome__it__box__img {
+        margin: 0 auto;
+    }
+
+    .wellcome__it__box__text {
+        width: 100%;
+    }
 }
 
 @media (max-width: 423px) {
